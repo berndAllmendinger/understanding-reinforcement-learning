@@ -84,5 +84,3 @@ The original companion code and its teaching explanations are provided under the
 **Book:** Bernd Allmendinger, *Understanding Reinforcement Learning: Probability and Mathematics Explained Step by Step*. ISBN and purchase link will be added when available.
 
 **Background references:** Sutton and Barto, *Reinforcement Learning: An Introduction*, second edition (2018), Chapters 5, 6 and 13; Schulman et al., [*Proximal Policy Optimization Algorithms*](https://arxiv.org/abs/1707.06347) (2017). No figures or prose from these works are redistributed here.
-
-**For the author:** [German guide to uploading this repository](docs/HOCHLADEN_DE.md).
