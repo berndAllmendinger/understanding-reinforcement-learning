@@ -1,0 +1,62 @@
+{
+  "prepared_date": "2026-11-01",
+  "status": "Local repository ready; not published to GitHub",
+  "notebooks": [
+    {
+      "path": "notebooks/01_nim.ipynb",
+      "sha256": "412a6ebe988a75ba0e37df1a766aed33a622f22e8aff095e99f2d7fe0669d17f",
+      "cells": 45,
+      "code_cells": 21,
+      "html_review": {
+        "mathNodes": 82,
+        "tables": 20,
+        "documentWidth": 1360,
+        "viewport": 1360,
+        "imageCount": 1,
+        "brokenImages": 0,
+        "mathErrors": 0
+      }
+    },
+    {
+      "path": "notebooks/02_tic_tac_toe.ipynb",
+      "sha256": "fd96a4d2b4715eee7ede6690c95afb646e5eda0f622b0b59e84c89908909961c",
+      "cells": 50,
+      "code_cells": 23,
+      "html_review": {
+        "mathNodes": 80,
+        "tables": 21,
+        "documentWidth": 1360,
+        "viewport": 1360,
+        "imageCount": 1,
+        "brokenImages": 0,
+        "mathErrors": 0
+      }
+    }
+  ],
+  "execution": [
+    {
+      "notebook": "01_nim.ipynb",
+      "seconds": 6.1,
+      "code_cells": 21,
+      "errors": 0
+    },
+    {
+      "notebook": "02_tic_tac_toe.ipynb",
+      "seconds": 19.75,
+      "code_cells": 23,
+      "errors": 0
+    }
+  ],
+  "independent_checks_passed": 27537,
+  "execution_method": "Fresh in-process IPython namespaces, all cells top-to-bottom; rich outputs saved in order",
+  "default_training": "Five methods per game, 20000 episodes each, seed 7",
+  "human_play_tests": "All five methods in both games; legal and invalid inputs, quitting, terminal results; tables unchanged",
+  "visual_review": "Rendered notebook HTML: mathematical notation, Q and policy tables, PPO, evaluation, curves and play sections",
+  "colab_status": "Self-contained and prepared for Colab; no signed-in Colab execution was performed",
+  "cover_sha256": "1b31b5b519f116f1b30a6faee4159ad3921e94d0e077fffa9abdcbdda8a01e57",
+  "limits": [
+    "Single seeded educational runs; not a method-ranking benchmark",
+    "Values refer to the declared training opponent",
+    "Tic-Tac-Toe learner is X only; PPO is tabular, not a deep network"
+  ]
+}
